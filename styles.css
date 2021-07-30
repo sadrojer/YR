@@ -1,0 +1,126 @@
+body {
+  background-color: #F3F3EB;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+section{padding: 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+p {
+  color: #4C8C84;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #4C8C84;
+}
+
+.container-fluid {
+  height: 200px
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  margin-left: 65px;
+}
+
+.navbar-toggler {
+  height: 40px;
+  width: 80px;
+  margin: 5px 60px
+}
+
+  /*Overrides color of Bootstrap elements */
+.creamy {
+  color: #F3F3EB !important;
+  border-color: #F3F3EB !important
+}
+
+.creamy:hover {
+  color: #FC9A57 !important
+}
+
+.logo {
+  height: 150px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.diag {
+  height: 65px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 182px auto;
+  padding-right: 212px
+}
+
+/* INTRO */
+.HOME {
+  width: 642px;
+  text-align: justify;
+}
+
+.introtext {
+  margin-left: 245px;
+  width: 425px;
+}
+
+.photo {
+  margin-left: 35px;
+  height: 150px;
+  border-color: #4C8C84;
+  border-style: solid;
+  border-width: 2px;
+  float: left;
+}
+
+.invis {
+  display: none
+}
+
+@media(min-width:768px) {
+
+  /*Gives space for the logo*/
+  .move-left {
+    position: relative;
+    right: 150px
+  }
+
+  .move-right {
+    position: relative;
+    left: 70px
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 247px
+  }
+
+  .diag {
+    margin-left: 182px
+  }
+
+.introtext {
+    width: 200px;
+  }
+
+.PORTFOLIO {
+  margin-left: 75px;
+  width: 320px;
+}
+}
